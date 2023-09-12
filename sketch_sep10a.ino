@@ -21,9 +21,9 @@ int eepromAddress = 0;
 String controlHtml() {
   String html = "<html lang=\"en\">";
   html += "<head>";
-  html += "<meta charset=\"UTF-8\">";
-  html += "<title>开关控制</title>";
-  html += "";
+  html += "    <meta charset=\"UTF-8\">";
+  html += "    <title>开关控制</title>";
+  html += "    <link rel=\"stylesheet\" href=\"https://raw.staticdn.net/Gabrlie/ESP8266-Web-LightController/main/style.css\">";
   html += "</head>";
   html += "<body>";
   html += "<button onclick='toggleMotor(\"ao\")'>全部开灯</button>";
